@@ -16,3 +16,12 @@ System.Web.Helpers: Redirects from versions 1.0.0.0 to 3.0.0.0.
 System.Web.WebPages: Redirects from versions 1.0.0.0 to 3.0.0.0.
 System.Web.Mvc: Redirects from versions 1.0.0.0 to 5.2.9.0.
 For more detailed information on configuring your ASP.NET application, refer to the official documentation.
+
+Technologies Used
+The project was developed using the following technologies:
+
+Programming Language: Python
+Web Framework: Django
+Database: PostgreSQL
+Frontend: HTML, CSS, JavaScript
+Version Control: Git.
