@@ -1,15 +1,19 @@
-ASP.NET Application Configuration
+ASP.NET Application Configuration.
+
 This configuration snippet is intended for an ASP.NET application. It provides settings related to the application’s behavior and dependencies. Let’s break it down:
 
 AppSettings:
+
 webpages:Version: Specifies the version of webpages (set to 3.0.0.0).
 webpages:Enabled: Indicates whether webpages are enabled (set to false).
 ClientValidationEnabled: Enables client-side validation (set to true).
 UnobtrusiveJavaScriptEnabled: Enables unobtrusive JavaScript (set to true).
 System.Web:
+
 compilation: Debug mode is enabled (for development purposes) with a target framework of 4.7.2.
 httpRuntime: Specifies the target framework for HTTP runtime (also 4.7.2).
 Assembly Binding Redirects:
+
 Redirects are defined for dependent assemblies:
 Microsoft.Web.Infrastructure: Redirects from any version to 2.0.1.0.
 System.Web.Helpers: Redirects from versions 1.0.0.0 to 3.0.0.0.
@@ -18,6 +22,7 @@ System.Web.Mvc: Redirects from versions 1.0.0.0 to 5.2.9.0.
 For more detailed information on configuring your ASP.NET application, refer to the official documentation.
 
 Technologies Used
+
 The project was developed using the following technologies:
 
 Programming Language: Python
